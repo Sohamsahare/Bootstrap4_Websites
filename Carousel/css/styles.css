@@ -1,0 +1,58 @@
+/* styles */
+
+body,
+html{
+	height: 100%;
+}
+/* default font-size for html is 16px */
+.section-content{
+	padding: 5rem 0;
+}
+
+/* cover */
+
+#cover{
+	background: #222 url('../img/tutorial/stars.jpg') center center no-repeat;
+	background-size: cover;
+	color: white;
+	height: 100%;
+	text-align: center;	
+	display: flex;
+	align-items: center;
+}
+
+#cover-caption{
+	width: 100%;
+}
+
+#cover-caption .container div form{
+	justify-content: center;
+}
+
+
+/* Card Section */
+
+.card img{
+	max-width: 100%;
+}
+
+/* About Section */
+#about{
+	background: url('../img/tutorial/girlincar.jpg') center center no-repeat;
+	background-size: cover;
+}
+
+.about-text{
+	background-color: rgba(0,0,0,0.8);
+	color: white;
+	padding:2rem;
+}
+
+/* Footer */
+
+#footer{
+	background-color: #222;
+	color:white;
+	font-size: 0.8rem;
+	padding: 1.6rem;
+}
